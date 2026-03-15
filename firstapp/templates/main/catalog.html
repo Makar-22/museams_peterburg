@@ -1,0 +1,157 @@
+{% extends 'main/museam.html'%}
+{% load static %}
+{% block title %}
+Каталог музеев Санкт-Петербурга
+{% endblock %}
+{% block Name %}
+Каталог
+{% endblock %}
+{% block style %}
+      #back1{
+        margin-top: -260px;
+        margin-left: 57%;
+        background-image: url({% static 'main/images.main/cunts.jpg' %});
+      }
+      #back2{
+        margin-top: -260px;
+        margin-left: 57%;
+        background-image: url({% static 'main/images.main/jermit.jpg' %});
+      }
+      #back3{
+        margin-left: 6%;
+         position: relative;
+        background-image: url({% static 'main/images.main/faberj.jpg' %})
+      }
+      #back4{
+        margin-left: 6%;
+        background-image: url({% static 'main/images.main/russ.jpg' %}); 
+      }
+      #back5{
+        margin-top: -260px;
+        margin-left: 57%;
+        position: relative;
+        background-image: url({% static 'main/images.main/peter.jpg' %});
+      }
+      #back7{
+        margin-left: 6%;
+        position: relative;
+        background-image: url({% static 'main/images.main/mramor.jpg' %});
+      }
+      #back9{
+        margin-top: -260px;
+        margin-left: 57%;
+        background-image: url({% static 'main/images.main/pushkin.jpg' %});
+      }
+      #back6{
+        margin-top: -260px;
+        margin-left: 57%;
+        background-image: url({% static 'main/images.main/era.jpg' %});
+      }
+      #back8{
+        margin-left: 6%;
+        background-image: url({% static 'main/images.main/pavel.jpg' %});
+      }
+      #back10{
+        margin-left: 6%;
+        background-image: url({% static 'main/images.main/fortress.jpg' %});
+      }
+ {% endblock %}
+{% block content %}
+  <main id="main_catalog">
+<div class="back" id="back8">
+ <a href="http://127.0.0.1:8000/zapovednik" class="card" , id="card4">
+  <div class="name">Заповедник Павловск
+ </div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20> г. Павловск, Садовая ул., д. 20</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20>07:00-19:00 </div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back1">
+  <a href="http://127.0.0.1:8000/cuntscamera" , class="card" , id="card1">
+   <span class="name">Кунтскамера</span>
+   <div class="info">
+    <div class="extra"><img src="{% static 'main/images.main/place.png' %}", height=20>  Университетская наб., 3, Санкт-Петербург</div>
+    <img src="{% static 'main/images.main/clock.png' %}", height=20> 10:00-18:00
+   </div>
+   </a>
+   </div>
+<div class="back" id="back7">
+ <a href="http://127.0.0.1:8000/mramor" class="card" , id="card4">
+  <div class="name">Мраморный дворец</div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20>Миллионная ул., 5/1, Санкт-Петербург</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20> 	10:00–18:00</div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back9">
+ <a href="http://127.0.0.1:8000/pushkin" class="card" , id="card4">
+  <div class="name">Музей-квартира Пушкина</div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20>наб. реки Мойки, 12, Санкт-Петербург</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20> 	10:00–18:00</div>
+   </div>
+   </a>
+   </div>
+<div class="back" id="back3">
+ <a href="http://127.0.0.1:8000/faberje" class="card" , id="card3">
+  <div class="name">Музей Фаберже</div>
+  <div class="info">
+   <div class="extra" id="extra3"><img src="{% static 'main/images.main/place.png' %}", height=20> Набережная реки Фонтанки, 21, Санкт-Петербург</div>
+   <div id="extra2"><img src="{% static 'main/images.main/clock.png' %}", height=20> 10:00–21:00</div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back6">
+ <a href="http://127.0.0.1:8000/era" class="card" , id="card4">
+  <div class="name">Музей Эрарта</div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20>   29 лин. Васильевского острова, 2</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20> 	11:00–23:00</div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back4">
+ <a href="http://127.0.0.1:8000/rusmuz" class="card" , id="card4">
+  <div class="name">Русский музей</div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20>  Инженерная ул., 4, Санкт-Петербург</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20> 10:00–18:00</div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back5">
+ <a href="http://127.0.0.1:8000/peter" class="card" , id="card4">
+  <div class="name">Петергофский дворец</div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20> Разводная ул., 2, Санкт-Петербург</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20> 	09:00–20:00</div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back10">
+ <a href="http://127.0.0.1:8000/fortress" class="card" , id="card4">
+  <div class="name">Петропавловская крепость</div>
+  <div class="info">
+   <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20>Петропавловский остров</div>
+   <div id="extra4"><img src="{% static 'main/images.main/clock.png' %}", height=20>	10:00–16:00 </div>
+  </div>
+  </a>
+  </div>
+<div class="back" id="back2">
+  <a href="http://127.0.0.1:8000/ermitaj" class="card" , id="card2">
+    <div class="name">Эрмитаж</div>
+    <div class="info">
+     <div class="extra" id="extra2"><img src="{% static 'main/images.main/place.png' %}", height=20>  Дворцовая пл., 2, Санкт-Петербург</div>
+     <div id="extra2"><img src="{% static 'main/images.main/clock.png' %}", height=20> 11:00–18:00</div>
+    </div>
+    </a>
+    </div>
+  <div class="back" id="back">
+  </div>
+  </a>
+  </div>
+</main>
+{% endblock %}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="{% static 'main/css/catalog_18.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/museam2.css' %}">
+    <link rel="shortcut icon" href="{% static 'main/images.main/logo.jpg' %}" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="Fri, 20 Mar 2014 00:00:00 GMT" />
+    <style>
+     #aside_catalog{
+            background-image: url({% static 'main\images.main\background_1.png' %});
+        }
+     #aside_catalog_1{
+            background-image: url({% static 'main\images.main\background_2.png' %});
+        }
+        {% block style %}
+        {% endblock %}
+    </style>
+</head>
+<body>
+    <b class="b", > 
+        {% block Name %}
+        {% endblock %}
+        <hr>
+        <hr>
+    </b>
+    <aside class="aside" id="aside_catalog_1">
+    <div class="aside" id="aside_back_1">
+    </div>
+  </aside>
+    <aside class="aside" id="aside_catalog">
+    <div class="aside" id="aside_back">
+    <div class="random">
+    <a href="http://127.0.0.1:8000/"><img class="im_l", src="{% static 'main/images.main/logo.jpg' %}"></a>
+        <hr>
+        <div class="aside_marks"><h3>Навигация</h3>
+        
+          <a href="http://127.0.0.1:8000/"><li class="links1">Главная</li></a>
+          <a href="http://127.0.0.1:8000/about"><li class="links1"><d>История проекта</d></li></a>
+        </div>
+        <hr>
+        <div class="rand_set">
+        <b><h5>Cлучайный экспонат</h5>
+          <div class="museam">{{ museam }} :</div> {{ artifact }} </b>
+        </div>
+    </div>
+    </div>
+  </aside>
+  
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
