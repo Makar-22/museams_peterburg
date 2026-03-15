@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(245, 246, 212);
+    position: relative;
+}
+
+.aside_catalog{
+    width:10%;
+    background-color: rgb(135, 135, 135);
+    height:100%;
+    margin-top: -100px;
+    border-right: 3px solid black;
+    position: relative;
+    bottom: 0px;
+}
+.list{
+    margin-top: 15px;
+}
+.h3{
+        margin-top:16px;
+}
+.im {
+        margin-left: 20px;
+        margin-top: -3px;
+        transition: 2s;
+}
+.im:hover {
+    transform:scale(110%);
+}
+.aside_creators{
+    width:10%;
+    background-color: rgb(135, 135, 135);
+    height:800px;
+    margin-top: -100px;
+    border-right: 3px solid black;
+}
+
+.aside_lvl{
+    width:10%;
+    background-color: rgb(135, 135, 135);
+    height: 800px;
+    margin-top: -100px;
+    border-right: 3px solid black;
+}
+
+.artifact{
+    font-size: 15px;
+}

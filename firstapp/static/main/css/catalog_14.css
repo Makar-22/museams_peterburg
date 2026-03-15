@@ -1,0 +1,181 @@
+main {
+  margin-left: 16%; width: 69%;height:150%;position: relative;
+}
+body {
+    background-color: rgb(245, 246, 212);
+    position: relative;
+}
+#aside_catalog{
+  height: 1000px;
+  position:fixed;
+  z-index: 100;
+  width:15%;;margin-top: -100px;border-right: 3px solid black;border-bottom: 3px solid black;
+}
+#aside_back{
+  height: 1000px;
+  position:fixed;
+  z-index: 1000;
+  width:15%;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+#aside_catalog_1{
+  height: 1000px;
+  position:fixed;
+  z-index: 100;
+  margin-left: 85%;
+  width:15%;margin-top: -100px;border-right: 3px solid black;border-bottom: 3px solid black;
+}
+#aside_back_1{
+  height: 1000px;
+  position:fixed;
+  z-index: 1000;
+  width:15%;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+#main_catalog{
+  position:static;
+  justify-content: center;
+}
+.im {
+    margin-left: 20%;
+    position: relative;
+    transition: 2s;
+    margin-top: 10%;
+}
+.aside_marks{
+  margin-left: 20%;
+  position: relative;
+}
+.rand_set{
+  margin-left: 3%;
+}
+.im:hover {
+  transform:scale(110%);
+}
+.card{
+  margin-top: 10px;
+  margin-left: 30px;
+  
+  height: 250px;
+  text-decoration: none;
+  font-size: 35px;
+  filter: blur(3);
+  text-decoration: none;
+  color:rgb(134, 0, 0);
+  text-decoration-color: rgb(134, 0, 0);
+  transition: 1s;
+  position: relative;
+  background-size: 770px;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(3px);
+  background-position:center;
+}
+.card:hover{
+  box-shadow: 3px 10px 10px gray;
+  backdrop-filter: blur(0px);
+  color:rgb(134, 0, 0);
+  text-decoration: none;
+}
+.card .info{
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 60px;
+  color:rgb(0 ,0 ,0);
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: 1s;
+}
+.card:hover .info{
+  display: block;
+  text-decoration: none;
+  color:rgb(0 ,0 ,0);
+}
+ .card .text{
+  filter: blur(0px);
+}
+.cardd{
+  text-decoration: none;
+}
+.extra{
+  margin-left:8px;
+}
+.random{
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.6);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.name{
+  background-color:  rgba(255, 255, 255, 0.5);
+}
+.card:hover .name{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+#card1 {
+  /*background-image: url(https://cdn2.tu-tu.ru/image/pagetree_node_data/1/84399a89a66e39794187fa884d64c16e/);*/
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+#card2 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+#card3 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+#card4 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+.cardd{
+  text-decoration: none;
+}
+.back{
+  width: 35%;
+  height: 250px;
+  position: relative;
+  background-size: 770px;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(3px);
+  background-position:center;
+  transition: 1s;
+}
+.back:hover{
+  filter: blur(0px);
+  transform: scale(102%);
+}
+.links1{
+  text-decoration: none;
+  transition: 1s;
+  font-size: 16px;
+  margin-left: 15%;
+  color:  rgb(0, 0, 0);
+ }
+.links1:hover{
+  transform:scale(110%);
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+  text-decoration-color:brown ;
+}
+.museam{
+  background-color: black;
+  color: black;
+  transition: 1s;
+  margin-left: -3%;
+}
+.museam:hover{
+  background-color:rgba(255, 255, 255, 0.6) ;
+  margin-left: 1%;
+}
+.b{
+    font-size: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-left: 17%;
+}

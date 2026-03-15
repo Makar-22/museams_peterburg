@@ -1,0 +1,154 @@
+main {
+  margin-left: 11%;
+  width: 89%;
+  height:100%;
+  position: relative;
+  
+  margin-top: -650px;
+}
+.aside{
+  width:10%;
+  background-color: rgb(185, 181, 181);
+  margin-top: -100px;
+  border-right: 3px solid black;
+  
+  position: relative;
+}
+#aside_catalog{
+  height: 1000px;
+  position:static;
+}
+#main_catalog{
+  position:static;
+  justify-content: center;
+}
+
+.im {
+    margin-left: 5%;
+    position: relative;
+    transition: 2s;
+}
+.im1{
+  margin-top: -160px;
+  margin-left: -10px;
+  transform: 2s;
+}
+.im:hover {
+  transform:scale(110%);}
+.card{
+  margin-top: 10px;
+  margin-left: 30px;
+  
+  height: 250px;
+  text-decoration: none;
+  font-size: 35px;
+  filter: blur(3);
+  text-decoration: none;
+  color:rgb(134, 0, 0);
+  text-decoration-color: rgb(134, 0, 0);
+  transition: 1s;
+  position: relative;
+  background-size: 770px;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(3px);
+  background-position:center;
+}
+.card:hover{
+  box-shadow: 3px 10px 10px gray;
+  backdrop-filter: blur(0px);
+  color:rgb(134, 0, 0);
+  text-decoration: none;
+}
+.card .info{
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 60px;
+  color:rgb(0 ,0 ,0);
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 1s;
+}
+.card:hover .info{
+  display: block;
+  text-decoration: none;
+  color:rgb(0 ,0 ,0);
+}
+ .card .text{
+  filter: blur(0px);
+}
+.cardd{
+  text-decoration: none;
+}
+.extra{
+  margin-left:8px;
+}
+.random{
+  width: 100%;
+  background-color: rgb(194, 167, 199);
+  border: 1px solid black;
+}
+.name{
+  background-color:  rgba(255, 255, 255, 0.5);
+}
+.card:hover .name{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#card1 {
+  /*background-image: url(https://cdn2.tu-tu.ru/image/pagetree_node_data/1/84399a89a66e39794187fa884d64c16e/);*/
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+#card2 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+#card3 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+#card4 {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 0px;
+}
+
+.back{
+  width: 35%;
+  height: 250px;
+  position: relative;
+  background-size: 770px;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(3px);
+  background-position:center;
+  transition: 1s;
+}
+.back:hover{
+  filter: blur(0px);
+  transform: scale(102%);
+}
+.links1{
+  text-decoration: none;
+  transition: 1s;
+  font-size: 16px;
+  color:  rgb(134, 0, 0);
+ }
+.links1:hover{
+  transform:scale(110%);
+  color: brown;
+  text-decoration: none;
+  text-decoration-color:brown ;
+}
+.museam{
+  background-color: black;
+  color: black;
+  transition: 1s;
+}
+.museam:hover{
+  background-color:rgb(194, 167, 199) ;
+}
+.b{
+    font-size: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-left: 50%;
+}
